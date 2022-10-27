@@ -139,10 +139,12 @@ h2 {
 }
 
 .list-cards {
-    margin: 0;
+    margin: 0 -15px;
     list-style: none;
     padding-bottom: 50px;
+
 }
+
 
 .list-cards > li {
     width: 25%;
@@ -187,6 +189,7 @@ h2 {
     border: 1px solid #EFEFEF;
     padding: 35px 63px;
 }
+
 
 .info::after{
     content: '';
@@ -236,7 +239,7 @@ h2 {
 
 .split2 {
     background: #F13C6E;
-    width: calc(50%);
+    width: calc(50% - 15px);
     float: right;
     padding: 0px 56px;
 }
@@ -298,23 +301,25 @@ input {
     border-bottom: 1px solid #EFEFEF;
 }
 
-.container-bottom {
-    border-bottom: 1px solid #EFEFEF;
-    width: 1110px;
-
+.header-bar {
+    border-top: 1px solid #F13C6E;
 
 }
 .icon a {
     border-radius: 50%;
     background: #FFFFFF;
-    /* border: 2px solid #F13C6E; */
+    border: 2px solid #F13C6E; 
     padding: 7px 10px;
     float: left;
     margin: 30px 6px;
+    width: 50px;
+    height: 50px;
+    padding: 13px 10px;
+    text-align: center;
 }
 
 .icon img {
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -336,4 +341,11 @@ input {
 
 .text-bottom {
     float: right;
+}
+
+.chair-buy p {
+    text-decoration: none;
+    padding: 0 3px;
+    color: black;
+    
 }
