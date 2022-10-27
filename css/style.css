@@ -111,7 +111,6 @@ h1 {
     font-weight: 400;
     font-size: 14px; 
     margin: 45px 0px;
-    
 }
 
 .button-banner a {
@@ -141,10 +140,8 @@ h2 {
 .list-cards {
     margin: 0 -15px;
     list-style: none;
-    padding-bottom: 50px;
-
+    padding-bottom: 67px;
 }
-
 
 .list-cards > li {
     width: 25%;
@@ -169,6 +166,7 @@ h2 {
 .price {
     font-weight: 500;
     font-size: 21px;
+    margin: 5px 0;
 }
 
 .product-image {
@@ -187,9 +185,12 @@ h2 {
     list-style: none;
     background: #FFFFFF;
     border: 1px solid #EFEFEF;
-    padding: 35px 63px;
 }
 
+.impuls a {
+    display: block;
+    padding: 36px 53px 29px 65px;
+}
 
 .info::after{
     content: '';
@@ -202,7 +203,7 @@ h2 {
 }
 
 .recently-viewed > h2 {
-    padding: 42px 0;
+    padding:74px 0px 34px;
 }
 
 .pink-block {
@@ -265,9 +266,15 @@ input {
     width: 25%;
     float: left;
     background: #FFFFFF;
-    padding: 60px 0px;
+    padding: 52px 0px;
     margin: 0 auto;
     text-align: left;
+}
+
+.white::after{
+    content: '';
+    clear: both;
+    display: block;
 }
 
 .column > li {
@@ -302,8 +309,7 @@ input {
 }
 
 .header-bar {
-    border-top: 1px solid #F13C6E;
-
+    border-top: 1px solid #EFEFEF;
 }
 .icon a {
     border-radius: 50%;
@@ -344,8 +350,20 @@ input {
 }
 
 .chair-buy p {
-    text-decoration: none;
-    padding: 0 3px;
+    padding: 0px 22px;
     color: black;
-    
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.chair-buy {
+    text-decoration: none;
+}
+
+.header-panel {
+    background: #E5E5E5;
+}
+
+.white {
+    border-bottom: 1px solid #EFEFEF;
 }
