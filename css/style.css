@@ -56,7 +56,7 @@ ul {
     color: #F13C6E;
 }
 
-.button a {
+.button {
     border: 2px solid #F13C6E;
     border-radius: 40px;
     background: #ffffff;
@@ -90,7 +90,7 @@ ul {
 }
 
 .banner {
-    background:url('/images/background.jpg');
+    background-image:url('/HW9/images/background.jpg');
     width: 100%;
     padding: 30px;
 }
@@ -113,7 +113,7 @@ h1 {
     margin: 45px 0px;
 }
 
-.button-banner a {
+.button-banner {
     background: #F13C6E;
     border: 2px solid #FFFFFF;
     border-radius: 40px;
