@@ -457,5 +457,5 @@ input {
     transition-property: box-shadow;
   }
   .hvr-glow:hover{
-    box-shadow: 0 0 20px #F13C6E;
+    box-shadow: 0 0 10px #F13C6E;
   }
